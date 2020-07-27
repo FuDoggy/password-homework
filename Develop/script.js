@@ -42,12 +42,11 @@ var userPasswordChoiceLength = prompt ("How many characters would you like your 
       }
       console.log(newArray)
 
-    var finalArray = ""
+      var finalArray = ""
       for (var i = 0; i <userPasswordChoiceLength; i++) {
         finalArray = finalArray + newArray [Math.floor(Math.random() * newArray.length)]
       }
       console.log(finalArray)
-
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 

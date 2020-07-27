@@ -1,0 +1,36 @@
+1. First setup our variables/data types
+    1. Strings = “hello”
+    2. Numbers = 123
+    3. Objects/Arrays = {}, []
+    4. Booleans = true/false
+    5. NaN = not a number
+    6. Undefined = undefine
+2. 4 arrays
+3. Var uppercase = [“A”, “B”, ….. “Y”, “Z”
+4. Var lowercase = [“a”, “b”]
+5. Var numbers = [“0-9”]
+6. Var special = [“@“, “$”, etc]
+7. Var newArr = [];
+8. Var finalArr = [];
+9. Var userPasswordLengthChoice = prompt(“Ask question in here”)
+
+2. We need to loop through our arrays so we can use them in our logic.
+Write a ‘for’ loop for uppercase, lowercase, numbers, and special
+
+4 Vars needed to store the prompt + confirm
+
+Once we are able to loop through all 4, we will then add the user’s response to the workshop array
+
+3. We need to connect those answers from the user to our array; 
+For example, if the user clicks yes they want uppercase, we want to push/add uppercase array to our workshop array.
+3a.  We need to create a condition to handle the trigger of adding the 4 arrays to our workshopArray (translation:  whenever the user clicks something it should be evaluated in our condition that then fires the addition to our workshop array.  (I.e.  if the user clicks ok to numbers, we push the numbers array into workshopArr.)
+4.  We now need to manipulate our array based upon the user’s initial password length selection.
+**Note** Every time we have our base logic down, we then need to ask ourselves how do we turn our logic into code.
+4a.  We need to randomize the indexes of the array - ALGORITHM (google)
+4b.  Loop through your array and make sure you have special, numbers, uppercase, and lowercase randomized in your array.
+4c.  First we need to check and cut down the length of our array = to the user’s response in userPasswordLengthChoice and then filter the array and push/add that to the finalResultsArr variable, and that will contain the final password.
+5.  Take that finalResultsArr variable and plug that into the HTML.
+    1. Add elements thru the DOM to put it into HTML.
+- [ ] 
+
+function options
